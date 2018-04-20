@@ -1,18 +1,17 @@
 {
-  "name": "Sprint-Challenge-Authentication",
+  "name": "sprint-challenge-authentication",
   "version": "1.0.0",
-  "description": "* **DISCLAIMER** Authentication is a subject that many people spend a large amount of their careers learning about. This is not something we expect you to have a mastery over, rather, we're preparing you to be able have an intelligent.",
-  "main": "server.js",
+  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LambdaSchool/Sprint-Challenge-Authentication.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shaun Kelly",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LambdaSchool/Sprint-Challenge-Authentication/issues"
@@ -26,5 +25,8 @@
     "jsonwebtoken": "^8.1.0",
     "mongoose": "^4.13.7",
     "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
   }
 }
